@@ -1,5 +1,5 @@
 //DICE1
-
+function playgame(){
 var randomnumber1= Math.floor(Math.random() *6)+1; //1-6
 
 var  randomdiceimage="dice"+randomnumber1+ ".png"; //dice1 .png -dice6.png concatenating
@@ -32,3 +32,5 @@ else {
     document.querySelector("h1").innerHTML ="Draw!!!";
 
 }
+}
+document.querySelector("button").addEventListener("click",playgame);
