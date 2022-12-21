@@ -32,3 +32,36 @@ nav{
     padding: 20px;
     
 }
+.btn {
+
+    background: #fff200;
+    background-image: -webkit-linear-gradient(top, #fff200, #f7ff00);
+    background-image: -moz-linear-gradient(top, #fff200, #f7ff00);
+    background-image: -ms-linear-gradient(top, #fff200, #f7ff00);
+    background-image: -o-linear-gradient(top, #fff200, #f7ff00);
+    background-image: linear-gradient(to bottom, #fff200, #f7ff00);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Courier New;
+    color: #f50000;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+
+    background: #f9faf2;
+    background-image: -webkit-linear-gradient(top, #f9faf2, #d5f00c);
+    background-image: -moz-linear-gradient(top, #f9faf2, #d5f00c);
+    background-image: -ms-linear-gradient(top, #f9faf2, #d5f00c);
+    background-image: -o-linear-gradient(top, #f9faf2, #d5f00c);
+    background-image: linear-gradient(to bottom, #f9faf2, #d5f00c);
+    text-decoration: none;
+  }
+  button{
+    text-align: center;
+  }
